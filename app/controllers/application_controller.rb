@@ -1,6 +1,6 @@
 class ApplicationController < ActionController::Base
 
-    def readme.md
-        render html: "Readme.md"
+    def hello
+        render html: "hello"
     end
 end
